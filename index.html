@@ -4,6 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>LINEA — Precision Running</title>
+
+  <!-- Social Preview -->
+  <meta property="og:title" content="LINEA — Precision Running" />
+  <meta property="og:description" content="Built for runners who train seriously. No guilt. No noise. Just precision." />
+  <meta property="og:type" content="website" />
+
   <style>
     body {
       margin: 0;
@@ -15,21 +21,63 @@
       justify-content: center;
       height: 100vh;
       text-align: center;
+      padding: 20px;
     }
+
+    .container {
+      max-width: 500px;
+    }
+
     h1 {
-      font-size: 40px;
-      margin-bottom: 10px;
+      font-size: 48px;
+      letter-spacing: 6px;
+      margin-bottom: 12px;
     }
+
     p {
-      opacity: 0.8;
+      font-size: 18px;
+      opacity: 0.85;
+      margin: 10px 0;
+    }
+
+    .sub {
       font-size: 16px;
+      opacity: 0.7;
+      margin-bottom: 30px;
+    }
+
+    .cta {
+      display: inline-block;
+      padding: 14px 28px;
+      border: 1px solid white;
+      border-radius: 30px;
+      text-decoration: none;
+      color: white;
+      transition: all 0.25s ease;
+      font-size: 16px;
+    }
+
+    .cta:hover {
+      background: white;
+      color: #0e2a6d;
     }
   </style>
 </head>
+
 <body>
-  <div>
+  <div class="container">
     <h1>LINEA</h1>
     <p>Precision running. Human recovery.</p>
+    <p class="sub">
+      Built for runners who train seriously. Not another streak app. Not another guilt engine.
+    </p>
+
+    <a href="https://forms.gle/SDdAFWSHRT9irn4K7"
+       class="cta"
+       target="_blank"
+       rel="noopener noreferrer">
+      Join the Waitlist
+    </a>
   </div>
 </body>
 </html>
